@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body, html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 10px;
+            background: white ;
+            width: 500px;
+            margin: auto;
+            border-radius: 5px;
+            padding-bottom: 10px;
+            box-shadow: 2px 2px 4px black;
+        }
+
+        form {
+            font-size: small;
+            border: 1px solid black;
+            padding-left: 20px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 8px black;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #ilog {
+            width: 500px;
+        }
+
+        #icomp {
+            width: 256px;
+        }
+
+        #imae {
+            width:375px ;
+        }
+
+        #ipai {
+            width: 372px;
+        }
+
+        #botao {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: bolder;
+            background: black;
+            color: white;
+            width: 500px;
+            margin-top: 30px;
+            margin-left: 270px;
+            border-radius: 5px;
+            box-shadow: 8px 8px 14px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preencha o Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required autocomplete="on" minlength="4" placeholder="Primeiro Nome">
+            <label for="isobre">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobre" required autocomplete="on" minlength="4" placeholder="Último Nome">
+            <label for="inasc">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="inasc" required>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" required autocomplete="on" placeholder="Sua Idade">
+        </p>
+        <p>
+            <label for="ilog">Logradouro:</label>
+            <input type="text" name="logradouro" id="ilog" required autocomplete="on" placeholder="Logradouro completo">
+            <label for="icomp">Complemento:</label>
+            <input type="text" name="complemento" id="icomp" required>
+        </p>
+        <p>
+            <label for="imae">Nome da Mãe:</label>
+            <input type="text" name="mae" id="imae" required autocomplete="on">
+            <label for="ipai">Nome do Pai:</label>
+            <input type="text" name="pai" id="ipai" required autocomplete="on">
+        </p>
+
+        <p id="botao">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <h2>
+        Viu baitola, fica bonitinho !!!
+    </h2>
+</body>
+</html>
