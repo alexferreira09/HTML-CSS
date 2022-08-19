@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 20px;
+        text-align: justify;
+        margin: 0px;
+        }
+
+        h1 {
+          background-color: lightgreen;
+         padding: 10px;
+        }
+
+        p {
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+
+        button {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: lightgreen;
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident quibusdam maxime et magni iure, qui velit quia aspernatur maiores nesciunt totam nostrum ad nihil dolores deleniti iusto voluptatem expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi quos autem modi laborum repudiandae molestiae vero facere voluptas quam possimus a odio ullam perspiciatis magni, quas cum pariatur voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi ad atque, error hic id earum eligendi reprehenderit molestias sunt dolores facilis incidunt provident optio nesciunt esse iusto corrupti ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, sequi, fugiat voluptas perspiciatis nemo sint odit esse ad voluptate repellat inventore voluptatum aliquid quos ut expedita commodi dolorum exercitationem ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus officiis eius, ipsa corporis blanditiis magnam eaque dicta facilis ex. Enim magni dignissimos quia commodi distinctio vitae facere atque labore?</p>
+
+    <h1>Título</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, possimus odio! Ad minima rerum totam quia cupiditate maxime vero, soluta consequatur alias. Itaque deleniti aliquid fugit? Iure officiis quibusdam velit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur porro perferendis laudantium? Doloremque eos itaque earum molestias nisi, placeat vitae non, facilis ex consequuntur labore laboriosam, maiores magnam excepturi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, illo sed! Incidunt rerum esse nihil illo dignissimos commodi adipisci, ipsam quos culpa fugit odit, eligendi eveniet, omnis inventore porro numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis inventore quisquam sequi animi perferendis dolorum suscipit voluptatibus nesciunt ipsum recusandae, qui excepturi facilis ex illo expedita. Commodi, expedita amet!
+    </p>
+
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nesciunt architecto quaerat consequuntur autem. Eius corrupti aspernatur tempora nemo? Inventore alias aliquid repellendus asperiores commodi vel, excepturi dolores dolorum consectetur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolore incidunt natus architecto itaque aliquam vero, deleniti assumenda laborum culpa deserunt temporibus perspiciatis laudantium error possimus sunt qui, consequatur at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit minus animi nisi sed maiores, consequuntur harum beatae assumenda itaque culpa ullam facilis nihil at dolorem tempora non. Officiis, in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab animi numquam excepturi et consequuntur rem fuga, ipsum cum! Odit cupiditate tempora repellendus placeat quasi, aperiam quos at molestiae illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero fugit mollitia tempore dolor numquam? Nihil, aliquam numquam! Veritatis saepe at impedit et! Nemo officia vero perferendis cum magnam! Eum?</p>
+
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus placeat magni dolorem pariatur provident doloremque enim, facere aliquam consectetur laudantium, voluptatem, temporibus autem! Quaerat magni reprehenderit dolor aperiam nobis temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque perferendis, doloremque mollitia saepe nulla aspernatur, fugit officiis vel nostrum sapiente expedita facere debitis quidem voluptatem reiciendis optio ex placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique ea dicta hic provident ab cumque unde eaque consectetur rem, cum magni accusantium quidem dolorum porro laboriosam, odio totam? Mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit incidunt quia expedita veniam obcaecati provident quidem! Maxime amet necessitatibus culpa quam, atque dolore rerum molestias cumque maiores quo consequatur eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatibus, incidunt dolorum nesciunt ab fugit eligendi accusamus laboriosam temporibus magnam quis culpa distinctio officiis eaque quos hic voluptatem molestias quae.</p>
+
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos a hic quas, reiciendis consequuntur molestiae perspiciatis doloremque reprehenderit natus optio ab explicabo. A illo quidem numquam fugiat neque nesciunt iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti, sapiente sit reprehenderit aspernatur dicta quod quia autem commodi error nisi voluptatibus praesentium possimus cum debitis unde vero dolores assumenda! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nam amet veniam ut, excepturi velit minus quasi veritatis quos id qui ducimus provident debitis harum, neque vero labore, totam officiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nam provident doloremque facere dolor porro enim at obcaecati amet, laborum, rerum voluptates saepe exercitationem, quisquam laboriosam distinctio possimus ipsa architecto?</p>
+
+    <button id="button-top">Voltar ao topo!</button>
+
+    <script>
+        const handleScroll = () => {
+            window.scroll({
+                top:0,
+                behavior: 'smooth'
+            })
+        }
+
+        const buttonElement = document.getElementById("button-top");
+        buttonElement.onclick = handleScroll;
+    </script>
+</body>
+</html>
