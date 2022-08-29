@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu Hamburguer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Meu Site </h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Nossa Historia</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Trabalhos Realizados</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quos ipsa reiciendis magni quia, sed, modi laudantium veniam commodi dolores voluptatem! Laborum incidunt quod hic eius voluptatum facilis maxime consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque earum optio accusantium adipisci magnam doloribus quaerat voluptatum quisquam beatae. Nam, nulla iure. Deserunt molestiae alias suscipit aperiam pariatur eaque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facilis officia voluptates.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, officiis quibusdam magnam omnis a maxime. Itaque id, numquam ut error pariatur modi exercitationem harum voluptatem ea obcaecati dignissimos aut omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut ipsa iure ea commodi, qui facilis fuga minus molestiae dolores. Nostrum et ducimus enim? Numquam quis quia blanditiis nam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, velit ad. Earum saepe similique quibusdam quaerat, mollitia, totam natus cum nostrum hic harum nobis veniam corrupti corporis reiciendis deleniti quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione quis repellendus placeat veniam beatae nam delectus exercitationem..</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
