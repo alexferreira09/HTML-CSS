@@ -19,14 +19,14 @@ header > h1 {
     color: black;
     padding: 15px;
     padding-bottom: 0px;
-    text-align:justify;
+    text-align:center;
     text-decoration: underline;
     text-shadow: 1px 1px 1px white;
 }
 
 header > h5 {
-    padding: 10px;
-    text-align: justify;
+    padding: 5px;
+    text-align: center;
     color: black;
     
 }
@@ -84,6 +84,16 @@ img {
     border-radius:50% ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
+}
+
+img#al {
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+p#leq {
+    text-align: center;
 }
 
 article > h2 {
