@@ -8,11 +8,11 @@
 }
 
 body, html {
-    background-color: #66a3d9;
+    background-color: #0b6bbf;
 }
 
 header {
-    background-color: #66a3d9;
+    background-color: #0b6bbf;
 }
 
 header > h1 {
@@ -21,7 +21,7 @@ header > h1 {
     padding-bottom: 0px;
     text-align:center;
     text-decoration: underline;
-    text-shadow: 1px 1px 1px #0b6bbf;
+    text-shadow: 1px 1px 1px #66a3d9;
 }
 
 header > h5 {
@@ -32,7 +32,7 @@ header > h5 {
 }
 
 span#burguer {
-    background-color: #0b6bbf;
+    background-color: #66a3d9;
     color: black;
     display: block;
     text-align: center;
@@ -58,9 +58,10 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #0b6bbf;
-    color: black;
     border-top: 2px solid #66a3d9;
+    background-color:#66a3d9;
+    color: black;
+    border-top: 2px solid #0b6bbf;
 }
 
 menu > ul > li > a:hover {
@@ -70,7 +71,7 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-color: #0b6bbf;
+    background-color: #66a3d9;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -90,6 +91,8 @@ img#al {
     width: 100px;
     margin: auto;
     padding: 10px;
+    box-shadow: 2px 2px 2px #66a3d9;
+
 }
 
 p#leq {
@@ -109,7 +112,7 @@ article > p {
 
 footer {
     text-align: center;
-    background-color: #0b6bbf;
+    background-color: #66a3d9;
     color: black;
     padding: 7px;
 }
