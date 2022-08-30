@@ -16,6 +16,7 @@ header {
 }
 
 header > h1 {
+    color: black;
     padding: 15px;
     padding-bottom: 0px;
     text-align:justify;
@@ -26,12 +27,13 @@ header > h1 {
 header > h5 {
     padding: 10px;
     text-align: justify;
+    color: black;
     
 }
 
 span#burguer {
     background-color: #0b6bbf;
-    color: white;
+    color: black;
     display: block;
     text-align: center;
     padding: 10px;
@@ -39,7 +41,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: #AED3F2;
+    background-color: #aed3f2;
     color: black;
 }
 
@@ -57,18 +59,18 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: #0b6bbf;
-    color: white;
-    border-top: 2px solid gray;
+    color: black;
+    border-top: 2px solid #66a3d9;
 }
 
 menu > ul > li > a:hover {
-    background-color: #AED3F2;
+    background-color: #0b6bbf;
    
 }
 
 main {
     width: 90vw;
-    background-color: #AED3F2;
+    background-color: #0b6bbf;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -86,6 +88,7 @@ img {
 
 article > h2 {
     padding-bottom: 20px;
+    color: black;
 }
 
 article > p {
@@ -97,6 +100,6 @@ article > p {
 footer {
     text-align: center;
     background-color: #0b6bbf;
-    color: white;
+    color: black;
     padding: 7px;
 }
