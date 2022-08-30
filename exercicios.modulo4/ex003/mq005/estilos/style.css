@@ -22,9 +22,10 @@ header > h1 {
     text-shadow: 1px 1px 1px white;
 }
 
-header > h4 {
-    padding: 15px;
+header > h5 {
+    padding: 10px;
     text-align: justify;
+    
 }
 
 span#burguer {
