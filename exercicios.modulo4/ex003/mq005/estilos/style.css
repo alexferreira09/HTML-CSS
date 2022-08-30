@@ -8,11 +8,11 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-color: #66a3d9;
 }
 
 header {
-    background-color: rgb(148, 148, 148);
+    background-color: #66a3d9;
 }
 
 header > h1 {
@@ -30,7 +30,7 @@ header > h5 {
 }
 
 span#burguer {
-    background-color: rgb(48, 48, 48);
+    background-color: #0b6bbf;
     color: white;
     display: block;
     text-align: center;
@@ -39,7 +39,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
+    background-color: #AED3F2;
     color: black;
 }
 
@@ -56,18 +56,19 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: #0b6bbf;
     color: white;
     border-top: 2px solid gray;
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: #AED3F2;
+   
 }
 
 main {
     width: 90vw;
-    background-color: white;
+    background-color: #AED3F2;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -95,7 +96,7 @@ article > p {
 
 footer {
     text-align: center;
-    background-color: rgb(48, 48, 48);
+    background-color: #0b6bbf;
     color: white;
     padding: 7px;
 }
