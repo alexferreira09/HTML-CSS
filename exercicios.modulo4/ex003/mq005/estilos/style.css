@@ -17,6 +17,7 @@ header {
 
 header > h1 {
     padding: 15px;
+    padding-bottom: 0px;
     text-align:justify;
     text-decoration: underline;
     text-shadow: 1px 1px 1px white;
