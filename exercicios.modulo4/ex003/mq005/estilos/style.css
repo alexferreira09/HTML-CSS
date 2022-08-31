@@ -79,6 +79,11 @@ main {
     border-radius: 10px;
 }
 
+img#js {
+    height: 45px;
+    margin: 10px;
+}
+
 img {
     width: 50px;
     margin: 10px;
