@@ -12,14 +12,15 @@ body, html {
 }
 
 header {
-    background-color: #0b6bbf;
+    background-color: white;
+    text-align: justify;
 }
 
 header > h1 {
     color: black;
     padding: 15px;
     padding-bottom: 0px;
-    text-align:center;
+    text-align: center;
     text-decoration: underline;
     text-shadow: 1px 1px 1px #66a3d9;
 }
@@ -81,7 +82,7 @@ main {
 
 img#js {
     height: 45px;
-    margin: 10px;
+   
 }
 
 img {
