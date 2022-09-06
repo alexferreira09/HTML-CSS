@@ -24,15 +24,22 @@
     }
 
     header {
-        background-color: #66a3d9;
-        
+        background-image: url(../imagens/tec2.jpeg.jpg);
+    }
+
+    header > h1 {
+        color: white;
+    }
+
+    header > h5 {
+        color: white;
     }
 
     img#al {
         width: 200px;
         margin: auto;
         padding: 10px;
-        box-shadow: 2px 2px 2px #66a3d9;
+        box-shadow: 2px 2px 2px white;
     
     }
 
