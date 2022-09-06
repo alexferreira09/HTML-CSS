@@ -51,5 +51,42 @@
         background-color: #0b6bbf;
         border-radius: 50px;
     }
+
+    h1 {
+        padding: 18px 30px;
+        border: none;
+        position: relative;
+        cursor: pointer;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: black;
+        border-radius: 5px;
+        min-width: 200px;
+        color: #fff;
+        z-index: 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.5s;
+        font-weight: 600;
+    }
+    
+    h1::before{
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: -50px;
+        width: 70%;
+        height: 100%;
+        background: linear-gradient(-90deg, transparent, #aed3f2, transparent);
+        transition: all .5s;
+        z-index: -10;
+        transform: translateX(-150px) skew(-50deg);
+    }
+    
+    h1:hover::before{
+        transform: translateX(800px) skew(-80deg);
+    }
+    
 }
  
