@@ -5,6 +5,12 @@
         display: none;
     }
 
+    body {
+        background-image: url(../imagens/tec1.jpeg.jpg);
+        background-attachment: fixed;
+        background-position: center center ;
+    }
+
     menu {
         display: block;
         background-color: white;
@@ -25,6 +31,8 @@
 
     header {
         background-image: url(../imagens/tec2.jpeg.jpg);
+        background-attachment: fixed;
+        background-position: center center ;
     }
 
     header > h1 {
@@ -45,10 +53,11 @@
 
     main {
         width: 768px;
+        background-color: white;
     }
 
     menu > ul > li > a:hover {
-        background-color: #0b6bbf;
+        background-color: black;
         border-radius: 50px;
     }
 
@@ -86,6 +95,10 @@
     
     h1:hover::before{
         transform: translateX(800px) skew(-80deg);
+    }
+
+    footer {
+        background-color: #fff;
     }
     
 }
