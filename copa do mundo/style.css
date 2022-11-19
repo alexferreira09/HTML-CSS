@@ -238,7 +238,7 @@ footer > p {
     text-align: center;
     color:#8a1538;
     padding: 5px;
-    filter: drop-shadow(1px 1px 1px white);
+    filter: drop-shadow(1px 1px 0px white);
 }
 
 @media (min-width: 769px) {
