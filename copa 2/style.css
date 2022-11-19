@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-color-primary: #f7dd43;
+  --card-title-color-border-: #746615;
+}
+
+body.cian {
+  --card-color-primary: #15bba2;
+  --card-title-color-border-: gray;
+}
+
+body.blue {
+  --card-color-primary: #3f70f7;
+  --card-title-color-border-: #070a35;
+}
+
+ul {
+  list-style: none;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url(./assets/bg.png);
+  background-position: top center;
+  overflow: overlay;
+  padding-bottom: 4rem;
+}
+
+#app {
+  width: fit-content;
+  margin: auto;
+  padding-top: 40px;
+}
+
+header {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  width: auto;
+  margin-inline: auto;
+  margin-bottom: 3.5vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+header button {
+  font-size: 20px;
+  text-transform: uppercase;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 10px;
+}
+
+.botaogrupo {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.botaomatamata {
+  border: none;
+  color: var(--card-color-primary);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menuhorizontal {
+  width: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.menuhorizontal ul {
+  list-style: none;
+  justify-content: center;
+}
+
+.menuhorizontal li {
+  /* border: 1px solid green; */
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-flex;
+  padding: 02px;
+  margin: 2px;
+  justify-content: space-between;
+
+  text-decoration: none;
+  padding: 06px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--card-color-primary);
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#matamata {
+  display: none;
+  flex-direction: column;
+}
+
+#matamata a {
+  display: flex;
+  direction: column;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+}
+
+#matamata img {
+  margin: auto;
+  width: 100%;
+}
+
+#cardsmata {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  padding: 32px 23px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid var(--card-color-primary);
+  border-left: 2px solid var(--card-color-primary);
+  border-radius: 10px;
+}
+
+.card h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 16px;
+  border: 1px solid var(--card-title-color-border-);
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 10px;
+
+  color: var(--card-color-primary);
+}
+
+.card h2 span {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card p {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 270px;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tooltip1:after {
+  content: attr(data-tooltip);
+  margin: 63px;
+  width: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  width: 100px;
+  height: 25px;
+  z-index: 3;
+  position: absolute;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.tooltip1:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tooltip2:after {
+  content: attr(data-tooltip);
+  margin: 63px;
+  width: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  width: 100px;
+  height: 25px;
+  z-index: 3;
+  position: absolute;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.tooltip2:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+ul li div {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
+  justify-items: center;
+  color: var(--card-color-primary);
+  font-size: 12px;
+}
+
+.card ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid gray;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color: white;
+}
+
+.menuhorizontal li,
+header img,
+header button,
+header h2 {
+  animation: fromTop 1s 0.3s backwards;
+}
+
+#matamata img:hover {
+  transform: scale(1.01);
+}
+
+header img:hover {
+  transform: scale(1.03);
+}
+
+header button:hover,
+.menuhorizontal li:hover,
+.card h2:hover,
+.card ul li strong:hover,
+.card ul li img:hover {
+  transform: scale(1.1);
+}
+
+#matamata img,
+header button,
+.menuhorizontal li,
+header img,
+.card h2,
+.card ul li strong,
+.card ul li img {
+  transition: transform 0.2s;
+}
+
+#matamata,
+.card {
+  opacity: 0;
+  animation: appear 0.7s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 00px) {
+  #cards {
+    max-width: 1920px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 00px) {
+  #cardsmata {
+    max-width: 1920px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 700px) {
+  .menuhorizontal {
+    max-width: 1920px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 0px) {
+  .menu {
+    max-width: 1920px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
